@@ -18,4 +18,4 @@ class AudioTest extends React.Component{
   }
 }
 
-export default AudioTest
+export default AudioTest;
