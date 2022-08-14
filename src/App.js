@@ -3,7 +3,7 @@ import './App.css'
 import SearchBox from './SearchBox'
 import Cards from './Cards'
 import MyButton from './Player'
-
+import AudioTest from './Player'
 
 function App() {
 
@@ -35,7 +35,7 @@ const cardElements = characters.map(char => {
 
   return (
     <div className="App bg-slate-900  bg-no-repeat bg-cover h-max p-5">
-      <MyButton />
+      <AudioTest />
       <SearchBox />
 
       {cardElements}
