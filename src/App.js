@@ -49,7 +49,7 @@ const cardElements = characters.map(char => {
 
 
   return (
-    <div className="App bg-slate-900  bg-no-repeat bg-cover  h-screen p-5">
+    <div className="App bg-slate-900  bg-no-repeat bg-cover  h-max p-5">
       <MyButton />
       <div className="flex items-center mt-5">   
         <label htmlFor="voice-search" className="sr-only">Search</label>
